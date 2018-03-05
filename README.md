@@ -1,7 +1,7 @@
 ## hexo-blog
 用hexo-blog搭建的个人博客。
 ## doc 
-[中文doc](https://hexo.io/zh-cn/ )   
+[中文doc](https://hexo.io/zh-cn/ )   
 [英文doc](https://hexo.io/)
 ## 初始化hexo-blog
 1. npm install hexo-cli -g
@@ -19,6 +19,10 @@
 - github新建oheart.github.io的仓库，这里的oheart是用户名。
 - [doc](https://hexo.io/docs/deployment.html)
 - hexo generate - d  文件生成后立即部署网站
+- 上传一个README.md到github
+    - 在Hexo目录下的source根目录下添加一个,README.md。  
+    - 修改Hexo目录下的_config.yml，设置skip_render:README.md  
+    - link: [怎么用hexo上传一个README.md到github?（Ubuntu）](https://www.zhihu.com/question/28058973)
 
 
 ## 编辑文章内容
